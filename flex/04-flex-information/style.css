@@ -24,3 +24,52 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Solution */
+/* Solution code should be type with matching
+    elements/classes/etc above. Placed here for
+    ease of checking
+*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  margin-bottom: 32px;
+}
+
+.bottom {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  gap: 52px;
+}
+
+.plant {
+  text-align: center;
+  word-wrap: normal;
+  width: 200px;
+}
+
+/* SOLUTION */
+
+/* body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+} */
