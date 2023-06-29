@@ -48,6 +48,8 @@ ul {
 }
 
 /* My Solution */
+/* this code should be put into the code above 
+   for correctness, but for easy of reading it is here. */
 
 .header {
   display: flex;
