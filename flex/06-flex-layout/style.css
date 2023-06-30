@@ -25,3 +25,50 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+
+/* My Solution */
+/* Code placed here for easy of checking solution. */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+a:hover{
+  color: gray;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+button {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
